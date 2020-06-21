@@ -1,0 +1,34 @@
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\bin\Debug\Lucky.exe.config
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\bin\Debug\Lucky.exe
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\bin\Debug\Lucky.pdb
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.csprojAssemblyReference.cache
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\MainWindow.g.cs
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\App.g.cs
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky_MarkupCompile.cache
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky_MarkupCompile.lref
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\MainWindow.baml
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.g.resources
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.Properties.Resources.resources
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.csproj.GenerateResource.cache
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.csproj.CoreCompileInputs.cache
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.exe
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\Lucky.pdb
+C:\Users\AnqiS\Documents\Visual Studio 2019\Projects\Lucky\obj\Debug\App.baml
+C:\Users\AnqiS\Documents\Project\Lucky\bin\Debug\Resources\Freesound.wav
+C:\Users\AnqiS\Documents\Project\Lucky\bin\Debug\Lucky.exe.config
+C:\Users\AnqiS\Documents\Project\Lucky\bin\Debug\Lucky.exe
+C:\Users\AnqiS\Documents\Project\Lucky\bin\Debug\Lucky.pdb
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.csprojAssemblyReference.cache
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\MainWindow.g.cs
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\App.g.cs
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky_Content.g.cs
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky_MarkupCompile.cache
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky_MarkupCompile.lref
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\App.baml
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\MainWindow.baml
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.g.resources
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.Properties.Resources.resources
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.csproj.GenerateResource.cache
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.csproj.CoreCompileInputs.cache
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.exe
+C:\Users\AnqiS\Documents\Project\Lucky\obj\Debug\Lucky.pdb
