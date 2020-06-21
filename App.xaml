@@ -1,0 +1,101 @@
+﻿<Application x:Class="Lucky.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Lucky"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ImageBrush x:Key="Image.default" ImageSource="pack://application:,,,/Lucky;component/Resources/1@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.start" ImageSource="pack://application:,,,/Lucky;component/Resources/2@2x.png" Stretch="Uniform"/>
+        
+        <ImageBrush x:Key="Image.0@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/3@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.1@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/4@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.2@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/5@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.3@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/6@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.4@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/7@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.5@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/8@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.6@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/9@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.7@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/10@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.8@2x" ImageSource="pack://application:,,,/Lucky;component/Resources/11@2x.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car" ImageSource="pack://application:,,,/Lucky;component/Resources/car.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car0" ImageSource="pack://application:,,,/Lucky;component/Resources/car1.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car1" ImageSource="pack://application:,,,/Lucky;component/Resources/car2.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car2" ImageSource="pack://application:,,,/Lucky;component/Resources/car3.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car3" ImageSource="pack://application:,,,/Lucky;component/Resources/car4.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car4" ImageSource="pack://application:,,,/Lucky;component/Resources/car5.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car5" ImageSource="pack://application:,,,/Lucky;component/Resources/car6.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car6" ImageSource="pack://application:,,,/Lucky;component/Resources/car7.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car7" ImageSource="pack://application:,,,/Lucky;component/Resources/car8.png" Stretch="Uniform"/>
+        <ImageBrush x:Key="Image.car8" ImageSource="pack://application:,,,/Lucky;component/Resources/car9.png" Stretch="Uniform"/>
+
+        <!-- 按钮基本样式,设置后IsPressed状态才可以正常显示 -->
+        <Style x:Key="ButtonBaseStyle"
+           TargetType="{x:Type ButtonBase}">
+            <Setter Property="Stylus.IsPressAndHoldEnabled"
+                Value="False" />
+            <Setter Property="Stylus.IsFlicksEnabled"
+                Value="False" />
+            <Setter Property="Stylus.IsTapFeedbackEnabled"
+                Value="False" />
+            <Setter Property="Stylus.IsTouchFeedbackEnabled"
+                Value="False" />
+            <Setter Property="FocusVisualStyle"
+                Value="{x:Null}"/>
+        </Style>
+
+        <!--普通按钮样式-->
+        <Style x:Key="Style.RoutineButton"
+           BasedOn="{StaticResource ButtonBaseStyle}"
+           TargetType="{x:Type ButtonBase}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ButtonBase}">
+                        <Border Name="ButtonBorder"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Background="Pink"
+                            CornerRadius="25">
+                            <TextBlock  x:Name="ButtonContent"
+                                    Text="{TemplateBinding Content}"
+                                    FontSize="20"
+                                    Foreground="White"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" 
+                                    Property="Background"
+                                    Value="White"/>
+                                <Setter TargetName="ButtonContent"
+                                    Property="Foreground"
+                                    Value="Pink"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="Style.EndButton"
+           BasedOn="{StaticResource ButtonBaseStyle}"
+           TargetType="{x:Type ButtonBase}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ButtonBase}">
+                        <Border Name="ButtonBorder"
+                            BorderThickness="0"
+                            BorderBrush="White"
+                            Background="#01000000"/>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" 
+                                    Property="Background"
+                                    Value="#01000000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
